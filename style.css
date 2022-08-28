@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,700&display=swap');
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    height: 100vh;
+    background: url(/restaurant\ 1.png);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .left-icon i{
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(50%, 5%);
+   
+
+    
+}
+.container .right-icon i{
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -5%);
+   
+}
+.container .text{
+    max-width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: rgb(236, 235, 235);
+    font-family: 'Mulish', sans-serif;
+    
+
+}
+.container .text .heading{
+    line-height: 75.3px;
+    font-size: clamp(15px, 8px + 2vw, 30px);
+    font-weight: 700;
+    text-align: center;
+}
+.container .text .sub-text{
+    line-height: 21.38px;
+    font-weight: 200;
+    font-size: clamp(3px, 6px + 2vw, 12px);
+    text-align: center;
+}
+
+.container .buttons{
+    margin: 2rem 0;
+    margin: 2rem auto;
+    display: flex;
+    max-width: 75%;
+    gap: 10px;
+
+}
+.container .buttons button{
+
+    justify-content: center;
+    padding: 10px 30px;
+    margin-bottom: 1rem;
+    
+}
+
